@@ -1,9 +1,13 @@
 # ==============================================================================
 # Daily AI/ML Learning Journey Sync Script
-# Run: .\sync.ps1
+# Run: .\scripts\sync.ps1 (from repo root) or run directly from anywhere
 # ==============================================================================
 
-Write-Host ">>> Staging all new notebooks, code, and notes..." -ForegroundColor Cyan
+# Ensure script executes relative to repository root
+$repoRoot = Split-Path -Parent $PSScriptRoot
+Set-Location $repoRoot
+
+Write-Host ">>> Staging all new notebooks, code, and documentation..." -ForegroundColor Cyan
 git add .
 
 $status = git status --porcelain
