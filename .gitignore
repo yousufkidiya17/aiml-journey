@@ -30,3 +30,12 @@ desktop.ini
 
 # Agent System Logs & Cache
 .system_generated/
+.agents/
+
+# Internal Agent & Workspace Configs
+AGENTS.md
+GEMINI.md
+.gateguard.yml
+
+# Scratchpad & Draft Notes
+amazon_hackathon_concepts.md
