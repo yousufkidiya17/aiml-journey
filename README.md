@@ -52,7 +52,7 @@ This repository documents my complete hands-on learning roadmap in **Artificial 
 - [x] **Lecture 6**: Array Properties & Type Casting (`shape`, `size`, `dtype`, `ndim`, `arr.astype()`)
 - [x] **Lecture 7**: Reshaping & Flattening (`arr.reshape()`, Golden rule of total elements, `arr.flatten()` for neural networks)
 - [x] **Lecture 8**: Array Indexing (1D coordinates, 2D matrix indexing, Fancy Indexing, Boolean Masking)
-- [ ] **Lecture 9**: Slicing on Arrays (1D & 2D slicing, Step slicing)
+- [x] **Lecture 9**: Slicing on Arrays (1D & 2D slicing, Step slicing, Sub-matrix extraction, Features-Target split)
 - [ ] **Lecture 10**: Memory Mechanics — Copy vs View in Array Slicing
 - [ ] **Lecture 11**: Multi-dimensional Arrays & Operations along Axes (`axis=0`, `axis=1`, 3D tensors)
 - [ ] **Lecture 12**: Data Types & Downcasting for High-Volume Memory Optimization
